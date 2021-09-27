@@ -1,0 +1,43 @@
+/*
+Template: 	This file is specific for HTML projects of Denisa Mihut
+Info: 		This file will contain frontend project style
+*/
+
+/*********	HEADER	***********************************************************/
+
+.navbar {
+    background-color: var(--website-primary-color);
+}
+
+.nav-link {
+    color: var(--nav-link-text);
+}
+
+.nav-link:hover {
+    color: var(--nav-link-text);
+}
+
+.navbar-toggler-icon {
+    background-color: var(--nav-link-text);
+    color: var(--nav-link-text);
+}
+.nav-item.active {
+    box-shadow: 0px -5px white inset;
+    bottom:-2;
+}
+
+.nav-link:hover, .nav-link:active {
+    box-shadow: 0px -5px white inset;
+}
+/*********	FOOTER	***********************************************************/
+
+/*********	HOMEPAGE     ******************************************************/
+.carousel-caption {
+    opacity:0.6;
+}
+.heading {
+    border-bottom: 5px solid red;
+}
+.description {
+    border-left: 5px solid var(--border-blue);
+}

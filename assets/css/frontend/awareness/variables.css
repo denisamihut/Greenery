@@ -1,0 +1,45 @@
+/*
+Template: 	This file is specific for HTML projects of Denisa Mihut
+Info:       This file will contain project specific variables as colors
+
+Syntax: "var(custom-name, value)"
+
+Possible values for "value":
+	#fff
+	15px
+	FontAwesome
+	...etc...
+
+How to give the name of the variable.
+	custom-name="--CSS-PROPERTIES_INTUITIVE-NAME_PSEUDO-CLASS"
+
+"custom name" parts:
+	1. "--" - mandatory
+	2. "CSS-PROPERTIES" - mandatory
+	3. "INTUITIVE-NAME" - mandatory
+	4. "PSEUDO-CLASS" - optional
+*/
+
+/****	COLORS		**********************************************************/
+
+:root {
+  --border-blue: #1e90ff;
+  --nav-link-text: #ffffff;
+  --website-primary-color: #28a745;
+}
+
+/****	FONTS		**********************************************************/
+
+:root {
+  --font_fa: FontAwesome;
+  --font_f-1_regular: ;
+  --font_f-1_semi-bold: ;
+  --font_f-1_bold: ;
+  --font_f-1_extra-bold: ;
+  --font_f-1_medium-italic: ;
+  --font_f-2_regular: ;
+  --font_f-2_semi-bold: ;
+  --font_f-2_bold: ;
+  --font_f-2_extra-bold: ;
+  --font_f-2_medium-italic: ;
+}
