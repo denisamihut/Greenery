@@ -1,0 +1,194 @@
+/*
+Info: 		This file will contain admin project style
+            Denisa Mihut
+
+*/
+
+/******************************************************************************/
+
+/*********	HEADER	***********************************************************/
+
+/******************************************************************************/
+
+.main-sidebar .brand-link {
+    height: 60px;
+    background-color: var(--color_logo);
+    padding: 13px;
+}
+
+.main-header {
+    height: 60px;
+    background-color: var(--color_navbar);
+}
+
+.nav-header {
+    background-color: #1a2226;
+    color: var(--color_sidebar_main);
+}
+
+.main-header .nav-link:hover {
+    color: white;
+}
+
+/******************************************************************************/
+
+/******************************************************************************/
+
+/*********	FOOTER	***********************************************************/
+
+/******************************************************************************/
+
+/******************************************************************************/
+
+/*********	HOMEPAGE     ******************************************************/
+
+/******************************************************************************/
+
+body {
+    -webkit-transition: background-color 1s;
+    transition: background-color 1s;
+    font-family: Arial;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+body.loading {
+    background: #d8ebf9 url('../../img/admin/loading.gif') no-repeat 50% 30%;
+    -webkit-transition: background-color 0;
+    transition: background-color 0;
+    opacity: 0;
+    -webkit-transition: opacity 0;
+    transition: opacity 0;
+    color: orange;
+}
+
+.sidebar {
+    background-color: var(--color_sidebar);
+}
+
+.nav-link, .sidebar a {
+    color: white;
+}
+
+.side-link {
+    padding: 0;
+    max-width: 250px;
+    font-size: 14px !important;
+    font-family: "Calibri";
+}
+
+.sidebar .nav .nav-item:hover {
+    background-color: #1a2226;
+    border-left: 3px solid var(--color_hover);
+}
+
+.sidebar .nav .nav-item {
+    height: 42px;
+}
+
+.sidebar .active-link {
+    background-color: #1a2226;
+    border-left: 3px solid var(--color_sidebar_active);
+    border-radius: 0;
+}
+
+.sidebar .active-link i, .sidebar .active-link p {
+    vertical-align: middle;
+}
+
+.brand-logo {
+    font-size: 24px;
+    padding: 0 25%;
+    text-decoration: none;
+    color: white;
+}
+
+form {
+    margin: 0 20px 20px 20px;
+    padding: 15px 20px;
+    background-color: white;
+    box-shadow: rgba(128, 128, 128, 0.35) 0px 2px 5px;
+    display: none;
+}
+
+form .form-control {
+    font-size: 16px;
+    height: 32px;
+}
+
+.breadcrumb span, .input-group, .form-control:focus {
+    border-color: var(--color_form_input);
+}
+
+.admin-form .headline {
+    font-size: 22px;
+}
+
+.row input, .row .icon {
+    border: none;
+    border-bottom: 3px solid var(--color_form_input);
+}
+
+.addBtn a, #saveBtn a, #saveBtnModal a {
+    border-radius: 4px;
+    color: white;
+}
+
+#saveBtn a:hover {
+    color: var(--color_button_1);
+    background-color: white;
+    border: 2px solid var(color_button_1)!important;
+}
+
+.addBtn a, #saveBtn a {
+    color: white;
+    background-color: var(--color_button_1);
+    padding: 7px 15px;
+}
+
+#cancelBtn, #cancelBtnModal:hover {
+    border-color: var(--color_hover)!important;
+}
+
+#cancelBtn, #cancelBtnModal {
+    width: 185px;
+    background-color: transparent;
+    color: black;
+    border: 1px solid var(--color_cancel_border)!important;
+    border-radius: 4px;
+}
+
+#deleteBtn {
+    color: white;
+    background-color: var(--color_button_2);
+}
+
+.breadcrumb {
+    font-size: 15px;
+    background-color: #f4f6f9;
+}
+
+.breadcrumb a, .pagination .page-item .page-link {
+    color: black;
+}
+
+.table-container {
+    background-color: white;
+    box-shadow: rgba(128, 128, 128, 0.35) 0px 2px 5px;
+}
+
+.container {
+    background-color: white;
+}
+
+.modal a.close-modal {
+    display: none!important;
+}
+
+/******************************************************************************/
+
+/******************************************************************************/
+
+/******************************************************************************/
