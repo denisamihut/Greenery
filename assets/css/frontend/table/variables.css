@@ -1,0 +1,80 @@
+/*
+Info:       This file will contain project specific variables as colors
+            Denisa Mihut
+
+*/
+
+/*****************************************************************************/
+
+/*
+Syntax: "var(custom-name, value)"
+
+Possible values for "value": 
+	#fff
+	15px
+	FontAwesome
+	...etc...
+
+How to give the name of the variable. 
+	custom-name="--CSS-PROPERTIES_INTUITIVE-NAME_PSEUDO-CLASS"		
+
+"custom name" parts:
+	1. "--" - mandatory
+	2. "CSS-PROPERTIES" - mandatory
+	3. "INTUITIVE-NAME" - mandatory
+	4. "PSEUDO-CLASS" - optional
+*/
+
+/*****************************************************************************/
+
+/*****************************************************************************/
+
+/*****************************************************************************/
+
+/****	COLORS		**********************************************************/
+
+/*****************************************************************************/
+
+:root {
+	--color_black: #000000;
+	--color_background: #eee;
+	--color_white_text: #ffffff;
+	--color_sidebar: #222d32;
+	--color_sidebar_active: #1e282c;
+	--color_sidebar_main: #4b646f;
+	--color_button_1: #3c8dbc;
+	--color_button_2: #dd4b39;
+	--color_logo: #367fa9;
+	--color_navbar: #3c8dbc;
+	--color_hover: #0099ff;
+	--color_form_input: #dadada;
+	--color_cancel_border: #d2d6de;
+	--color_sidebar_background: #1a2226;
+	--color_border_cell: #f0eaea;
+}
+
+/*****************************************************************************/
+
+/****	FONTS		**********************************************************/
+
+/*****************************************************************************/
+
+:root {
+	--font_fa: FontAwesome;
+	--font_f-1_regular: ;
+	--font_f-1_semi-bold: ;
+	--font_f-1_bold: ;
+	--font_f-1_extra-bold: ;
+	--font_f-1_medium-italic: ;
+	--font_f-2_regular: ;
+	--font_f-2_semi-bold: ;
+	--font_f-2_bold: ;
+	--font_f-2_extra-bold: ;
+	--font_f-2_medium-italic: ;
+}
+
+/*****************************************************************************/
+
+/*****************************************************************************/
+
+/*****************************************************************************/
